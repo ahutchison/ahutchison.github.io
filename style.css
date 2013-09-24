@@ -1,3 +1,7 @@
+title{
+	text-align: center;
+}
+
 body{
 	background-color: teal; 
 	}
@@ -8,11 +12,11 @@ h4 {
 	font-family:                    
 }
 
-#selfie {
+.selfie {
 	background-color: black;
 } 
 
 
-#gift {
+.gift {
 	background-color: blue;
 }
