@@ -7,7 +7,7 @@ body{
 	}
 
 h2 h4 { text-align: center;
-	font-family: "mono45-headline";
+
 
 }
 
@@ -22,7 +22,7 @@ h2 h4 { text-align: center;
 h1{ font-weight: bold;
 	font-style: italic;
 	text-align: center;
-	font-family: Helvetica, sans-serif;
+	font-family: "mono45-headline";
 }
 
 BLOCKQUOTE {
