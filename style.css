@@ -4,7 +4,7 @@ title{
 }
 
 body{
-	background-color: white; 
+	margin: 0;
 	}
 
 h2,
@@ -66,4 +66,37 @@ BLOCKQUOTE {
 background-color: gray;
 
 
+}
+
+.menu{
+	background-color: gray;
+	text-align: center;
+
+
+}
+
+
+.project {
+	border: 3px solid pink;
+	width: 20%;
+	display: inline-block;
+	padding: 5% 0;
+	margin: 1em;
+	height: 200px;
+	vertical-align: top;
+	background: url("puppy.jpeg");
+	background-size: 120%;
+	background-position: center;
+}
+
+.project a {
+	opacity: 0;
+}
+
+.project:hover {
+	background-color: black;
+}
+
+.project:hover a {
+	opacity: 1;
 }
