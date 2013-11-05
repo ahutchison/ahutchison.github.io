@@ -77,7 +77,6 @@ background-color: gray;
 
 
 .project {
-	border: 3px solid pink;
 	width: 20%;
 	display: inline-block;
 	padding: 5% 0;
@@ -94,7 +93,7 @@ background-color: gray;
 
 .project:hover {
 	background-color: #3C6B61;
-	border: 10px solid black;
+	border: 3px solid black;
 }
 
 .project:hover a {
