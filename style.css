@@ -104,8 +104,7 @@ background-color: gray;
 .project:hover a {
 	opacity: 1;
 	font-size: 150%;
-	font-family: "museo-slab";
+	font-family: "ff-enzo-web";
 	font-style: white;
-	text-decoration: underline none;
 
 }
