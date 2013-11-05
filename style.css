@@ -87,13 +87,13 @@ background-color: gray;
 	height: 125px;
 	vertical-align: top;
 	background-color: #395A53;
-	font-family: "museo-slab";
-	font-style: black;
+
 	
 }
 
 .project a {
 	opacity: 0;
+
 }
 
 .project:hover {
@@ -103,5 +103,6 @@ background-color: gray;
 
 .project:hover a {
 	opacity: 1;
+	font-size: 150%;
 
 }
