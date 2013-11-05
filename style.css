@@ -98,5 +98,5 @@ background-color: gray;
 
 .project:hover a {
 	opacity: 1;
-	border: 3px solid white;
+	text-transform: 150%;
 }
