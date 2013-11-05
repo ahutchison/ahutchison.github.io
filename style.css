@@ -93,10 +93,10 @@ background-color: gray;
 }
 
 .project:hover {
-	background-color: black;
+	background-color: gray;
 }
 
 .project:hover a {
 	opacity: 1;
-	text-transform: 150%;
+
 }
