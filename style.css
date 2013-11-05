@@ -84,7 +84,7 @@ background-color: gray;
 	margin: 1em;
 	height: 200px;
 	vertical-align: top;
-	background-color: black
+	background-color: #395A53;
 	
 }
 
@@ -94,6 +94,7 @@ background-color: gray;
 
 .project:hover {
 	background-color: #3C6B61;
+	border: 10px solid black;
 }
 
 .project:hover a {
