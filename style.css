@@ -84,9 +84,8 @@ background-color: gray;
 	margin: 1em;
 	height: 200px;
 	vertical-align: top;
-	background: url("puppy.jpeg");
-	background-size: 120%;
-	background-position: center;
+	background-color: black
+	
 }
 
 .project a {
