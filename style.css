@@ -77,6 +77,7 @@ background-color: gray;
 
 
 .project {
+	border: 3px solid #395A53 ;
 	width: 20%;
 	display: inline-block;
 	padding: 5% 0;
