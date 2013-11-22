@@ -85,7 +85,7 @@ background-color: #FFFDE8;
 	padding: 5% 0;
 	margin: 1em;
 	height: 125px;
-	vertical-align: top, middle;
+	vertical-align: top;
 	background-color: #000000;
 
 	
@@ -107,4 +107,14 @@ background-color: #FFFDE8;
 	font-family: "ff-enzo-web";
 	font-style: white;
 
+}
+
+.mindfullness {
+	width: 20%;
+	display: inline-block;
+	padding: 5% 0;
+	margin: 1em;
+	height: 125px;
+	vertical-align: top;
+	background-color: #000000;
 }
