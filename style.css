@@ -16,7 +16,7 @@ h4 {
 
 .flocup {
 	background-color: #000
-	font-family: "ff-enzo-web";
+	
 
 }
 
@@ -53,7 +53,7 @@ BLOCKQUOTE {
 }
 
 .selfie {
-	background-color: white;
+	background-color: #FFFDE8;
 	text-align: center;
 } 
 
@@ -87,12 +87,14 @@ background-color: #FFFDE8;
 	height: 125px;
 	vertical-align: top;
 	background-color: #000000;
-
+	transition: background-color 0.2s;
 	
 }
 
 .project a {
 	opacity: 0;
+	text-decoration: none;
+	color: #000;
 
 }
 
@@ -106,6 +108,7 @@ background-color: #FFFDE8;
 	font-size: 150%;
 	font-family: "ff-enzo-web";
 	font-style: white;
+	
 
 }
 
