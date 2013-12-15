@@ -58,10 +58,14 @@ h4 {
 } 
 
 .redamelie {
-	background-color: #FFFDE8
-text-align:center;
-	
+	background-color: #FFFDE8;
+}
 
+.redamelie img {
+	display: block;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
