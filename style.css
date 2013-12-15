@@ -9,7 +9,38 @@ body{
 	}
 
 .logo {
+	display:block;
 	text-align: center;
+	z-index:200;
+	position:relative;
+}
+
+.logo:hover {
+	z-index:500;
+}
+
+.logo:hover .pug {
+	display:block;
+}
+
+.logo .pug {
+	display:none;
+}
+
+.logo:hover .pug {
+	display: block;
+	z-index:300;
+}
+
+.pugless {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pugless .pug {
+	position:absolute;
+	top:5px;
+	left:683px;
 }
 
 h2,
@@ -18,8 +49,17 @@ h4 {
 	font-family: "ff-enzo-web";
 }
 
-.flocup {
-	background-color: #000
+.synopsis{
+	font-family: "ff-enzo-web"
+	line-height: 1.7em;
+	margin: 4em;
+	padding-left: 4em;
+	padding-right: 4em;
+} 
+
+.redamelie {
+	background-color: #FFFDE8
+text-align:center;
 	
 
 }
@@ -30,6 +70,7 @@ h4 {
 	line-height: 1.7em;
 	margin: 4em;
 	padding-left: 4em;
+
 }
 	
 
@@ -69,6 +110,8 @@ BLOCKQUOTE {
 
 .documentedcup {
 background-color: #FFFDE8;
+padding: 4em;
+text-align: center;
 
 
 }
@@ -76,14 +119,11 @@ background-color: #FFFDE8;
 .menu{
 	background-color: #FFFDE8;
 	text-align: center;
-
-
-
+	position: relative;
 }
 
 
 .project {
-
 	width: 20%;
 	display: inline-block;
 	padding: 5% 0;
@@ -99,6 +139,7 @@ background-color: #FFFDE8;
 	opacity: 0;
 	text-decoration: none;
 	color: #000;
+
 
 }
 
