@@ -15,21 +15,16 @@ body{
 	position:relative;
 }
 
-.logo:hover {
-	z-index:500;
-}
-
-.logo:hover .pug {
-	display:block;
-}
-
 .logo .pug {
-	display:none;
+	display: none;
+}
+
+.logo:hover img {
+	display: none;
 }
 
 .logo:hover .pug {
 	display: block;
-	z-index:300;
 }
 
 .pugless {
