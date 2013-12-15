@@ -35,12 +35,12 @@ body{
 .pugless {
 	margin-left:auto;
 	margin-right:auto;
+	margin-top: 0;
 }
 
 .pugless .pug {
-	position:absolute;
-	top:5px;
-	left:683px;
+	text-align:center;
+	margin:0 auto;
 }
 
 h2,
