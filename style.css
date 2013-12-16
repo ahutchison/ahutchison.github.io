@@ -94,6 +94,7 @@ BLOCKQUOTE {
 
 .selfie {
 	background-color: #FFFDE8;
+	display: inline-block;
 	text-align: center;
 }
 
@@ -115,6 +116,7 @@ text-align: center;
 	background-color: #FFFDE8;
 	text-align: center;
 	position: relative;
+	
 }
 
 
@@ -122,11 +124,12 @@ text-align: center;
 	width: 20%;
 	display: inline-block;
 	padding: 5% 0;
-	margin: 1em;
+	margin: 2em;
 	height: 125px;
 	vertical-align: top;
 	background-color: #000000;
 	transition: background-color 0.2s;
+	box-shadow: 10px 10px 10px #888888;
 
 }
 
