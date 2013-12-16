@@ -13,34 +13,25 @@ body{
 	text-align: center;
 	z-index:200;
 	position:relative;
+	margin: 0 auto;
 }
 
-.logo:hover {
-	z-index:500;
-}
-
-.logo:hover .pug {
-	display:block;
+.logo .pug,
+.logo .pugless {
+	display: block;
+	margin: 0 auto;
 }
 
 .logo .pug {
-	display:none;
+	display: none;
 }
 
 .logo:hover .pug {
 	display: block;
-	z-index:300;
 }
 
-.pugless {
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: 0;
-}
-
-.pugless .pug {
-	text-align:center;
-	margin:0 auto;
+.logo:hover .pugless {
+	display: none;
 }
 
 h2,
@@ -55,7 +46,7 @@ h4 {
 	margin: 4em;
 	padding-left: 4em;
 	padding-right: 4em;
-} 
+}
 
 .redamelie {
 	background-color: #FFFDE8;
@@ -76,7 +67,7 @@ h4 {
 	padding-left: 4em;
 
 }
-	
+
 
 .pen {
 	line-height: 1.7em;
@@ -104,7 +95,7 @@ BLOCKQUOTE {
 .selfie {
 	background-color: #FFFDE8;
 	text-align: center;
-} 
+}
 
 
 .gift {
@@ -136,7 +127,7 @@ text-align: center;
 	vertical-align: top;
 	background-color: #000000;
 	transition: background-color 0.2s;
-	
+
 }
 
 .project a {
@@ -149,7 +140,7 @@ text-align: center;
 
 .project:hover {
 	background-color: #FFFDE8;
-	
+
 }
 
 .project:hover a {
@@ -157,7 +148,7 @@ text-align: center;
 	font-size: 150%;
 	font-family: "ff-enzo-web";
 	font-style: white;
-	
+
 
 }
 
