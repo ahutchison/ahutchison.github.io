@@ -67,12 +67,16 @@ h4 {
 }
 
 
-.cup {
+.cuptext {
 	font-family: "ff-enzo-web";
 	line-height: 1.7em;
 	margin: 4em;
 	padding-left: 4em;
 
+}
+
+.cupimages{
+	text-align: center;
 }
 
 
@@ -107,8 +111,16 @@ BLOCKQUOTE {
 
 
 .gift {
-	background-color: white;
+	background-color: #FFFDE8;
 	text-align: center;
+}
+
+.gratitude{
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-top: 2em;
+	font-family: "ff-enzo-web";
+
 }
 
 .documentedcup {
@@ -164,11 +176,13 @@ text-align: center;
 
 .mindfullness {
  text-align: center;
+ padding: 2em;
 
 }
 
 .vipassana {
-margin-left: 2em
+padding: 4em;
+
 
 }
 
