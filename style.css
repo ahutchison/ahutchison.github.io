@@ -13,48 +13,40 @@ body{
 	text-align: center;
 	z-index:200;
 	position:relative;
-	margin: 0 auto;
 }
 
-<<<<<<< HEAD
-.logo .pug {
-	display: none;
+.logo:hover {
+	z-index:500;
 }
 
-.logo:hover img {
-=======
-.logo .pug,
-.logo .pugless {
-	display: block;
-	margin: 0 auto;
+.logo:hover .pug {
+	display:block;
 }
 
 .logo .pug {
->>>>>>> pr/2
-	display: none;
+	display:none;
 }
 
 .logo:hover .pug {
 	display: block;
+	z-index:300;
 }
 
-.logo:hover .pugless {
-	display: none;
+.pugless {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0;
 }
 
-.home h2 {
-	background-color: #332026;
-	color: white;
-	text-align: right;
-	padding-right: 4em;
+.pugless .pug {
+	text-align:center;
+	margin:0 auto;
 }
+
 h2,
-h3,
 h4 {
 	text-align: center;
 	font-family: "ff-enzo-web";
-	text-decoration: none;
-	color: #000;
 }
 
 .synopsis{
@@ -63,11 +55,7 @@ h4 {
 	margin: 4em;
 	padding-left: 4em;
 	padding-right: 4em;
-}
-
-.loveletter{
-	text-align: center;
-}
+} 
 
 .redamelie {
 	background-color: #FFFDE8;
@@ -80,23 +68,15 @@ h4 {
 	margin-right: auto;
 }
 
-.redamelietext {
-	padding: 4em;
-}
 
-
-.cuptext {
+.cup {
 	font-family: "ff-enzo-web";
 	line-height: 1.7em;
 	margin: 4em;
 	padding-left: 4em;
 
 }
-
-.cupimages{
-	text-align: center;
-}
-
+	
 
 .pen {
 	line-height: 1.7em;
@@ -104,10 +84,6 @@ h4 {
 	padding-left: 4em;
 	font-family: Helvetica, sans-serif;
 
-}
-
-.hipster {
-	text-align: center;
 }
 
 h1{ font-weight: bold;
@@ -127,22 +103,13 @@ BLOCKQUOTE {
 
 .selfie {
 	background-color: #FFFDE8;
-	display: inline-block;
 	text-align: center;
-}
+} 
 
 
 .gift {
-	background-color: #FFFDE8;
+	background-color: white;
 	text-align: center;
-}
-
-.gratitude{
-	margin-left: 8em;
-	margin-right: 8em;
-	margin-top: 2em;
-	font-family: "ff-enzo-web";
-
 }
 
 .documentedcup {
@@ -157,7 +124,6 @@ text-align: center;
 	background-color: #FFFDE8;
 	text-align: center;
 	position: relative;
-	
 }
 
 
@@ -165,26 +131,25 @@ text-align: center;
 	width: 20%;
 	display: inline-block;
 	padding: 5% 0;
-	margin: 2em;
+	margin: 1em;
 	height: 125px;
 	vertical-align: top;
-	background-color: #1D1D28;
+	background-color: #000000;
 	transition: background-color 0.2s;
-	box-shadow: 10px 10px 10px #888888;
-
+	
 }
 
 .project a {
 	opacity: 0;
 	text-decoration: none;
-	color: #1D1D28;
+	color: #000;
 
 
 }
 
 .project:hover {
 	background-color: #FFFDE8;
-
+	
 }
 
 .project:hover a {
@@ -192,24 +157,17 @@ text-align: center;
 	font-size: 150%;
 	font-family: "ff-enzo-web";
 	font-style: white;
-
+	
 
 }
 
 .mindfullness {
  text-align: center;
- padding: 2em;
 
 }
 
 .vipassana {
-padding: 4em;
+margin-left: 2em
 
-
-}
-
-.references a {
-	
-	color: #000;
 }
 
