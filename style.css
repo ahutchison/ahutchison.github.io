@@ -120,7 +120,7 @@ BLOCKQUOTE {
 	font-size: 1.5em;
 	border-left: 5px solid #000;
 	margin: 2em ;
-	padding: 0 0 0 1em;
+	padding 0 0 0 1em;
 	line-height:1em;
 
 }
@@ -146,9 +146,9 @@ BLOCKQUOTE {
 }
 
 .documentedcup {
-	background-color: #FFFDE8;
-	padding: 4em;
-	text-align: center;
+background-color: #FFFDE8;
+padding: 4em;
+text-align: center;
 
 
 }
@@ -197,18 +197,19 @@ BLOCKQUOTE {
 }
 
 .mindfullness {
- 	text-align: center;
- 	padding: 2em;
+ text-align: center;
+ padding: 2em;
 
 }
 
 .vipassana {
-	padding: 4em;
+padding: 4em;
 
 
 }
 
 .references a {
+	
 	color: #000;
 }
 
