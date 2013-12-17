@@ -160,7 +160,7 @@ text-align: center;
 	margin: 2em;
 	height: 125px;
 	vertical-align: top;
-	background-color: #592424;
+	background-color: #1D1D28;
 	transition: background-color 0.2s;
 	box-shadow: 10px 10px 10px #888888;
 
@@ -169,7 +169,7 @@ text-align: center;
 .project a {
 	opacity: 0;
 	text-decoration: none;
-	color: #592424;
+	color: #1D1D28;
 
 
 }
