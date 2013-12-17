@@ -16,21 +16,13 @@ body{
 	margin: 0 auto;
 }
 
-<<<<<<< HEAD
-.logo .pug {
-	display: none;
-}
-
-.logo:hover img {
-=======
 .logo .pug,
 .logo .pugless {
-	display: block;
 	margin: 0 auto;
+	display: block;
 }
 
 .logo .pug {
->>>>>>> pr/2
 	display: none;
 }
 
@@ -41,6 +33,7 @@ body{
 .logo:hover .pugless {
 	display: none;
 }
+
 
 .home h2 {
 	background-color: #332026;
